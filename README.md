@@ -15,3 +15,7 @@ The implemented pipeline consists of the following custom steps:
 - **evaluation** – Compute performance metrics
 
 Each step receives inputs and produces outputs called **artifacts** serialized in and deserialized from the **artifact store** using a **materializer**.
+
+## Acknowledgments
+
+This project adapts a Jupyter notebook originally from IBM’s xgboost-financial-predictions repo into a modular, reproducible Kedro pipeline.
